@@ -574,7 +574,7 @@ var defs = {
 
 $(function() {
     var data;
-    $.getJSON('data.min.json', function(j) {
+    $.getJSON('data.json', function(j) {
         data = j;
 
         // craft tables
